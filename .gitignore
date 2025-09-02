@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Ignore environment variables file
+.env
+
+# VS Code settings
+.vscode/
+
+# MacOS / Windows
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
